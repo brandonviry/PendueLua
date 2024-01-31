@@ -17,6 +17,10 @@ Module qui contient la logique pour la sélection aléatoire d'un mot.
 ### `mathem.lua`
 Module qui contient des fonctions mathématiques, telles que la génération de nombres aléatoires.
 
+### `file.lua`
+Module qui contient des fonctions de gestion de fichier , telles que la lecture de fichier JSON.
+
+
 ## Comment Jouer
 
 1. Exécutez le programme en utilisant la commande `lua main.lua` ou  executé le fichier `run.bat`.
