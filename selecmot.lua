@@ -1,5 +1,5 @@
 local Json = require("file")
-local Mathem = require("Mathem")
+local Mathem = require("mathem")
 local Mot = {mot=""}
 Mot.slection = function(position)
     local f ="motssac.Json"
@@ -8,7 +8,7 @@ Mot.slection = function(position)
     return Mot.mot
 end
 Mot.liste = function()
-    local f ="mot.Json"
+    local f ="motssac.Json"
 	local donne= Json:lire(f)
 
     return donne
